@@ -1,0 +1,11 @@
+# Aqui são os arquivos que deverão ser ignorados -- é uma estrutura padrão. Aqui é o que será oculto quando eu levar os arquivos para o repositório remoto
+# Ambiente virtual Python (nomes comums usados para ambientes virtuais)
+.venv/
+venv/
+env/
+
+# Variáveis e credenciais
+.env
+
+# Python (arquivos caches do Python)
+__pycache__/

@@ -1,0 +1,8 @@
+# Aqui se informa quais as bibliotecas que precisam ter para o pipeline rodar
+
+pandas
+sqlalchemy
+psycopg2-binary
+requests
+openpyxl
+dotenv
