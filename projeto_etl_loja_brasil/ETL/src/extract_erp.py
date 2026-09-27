@@ -47,7 +47,5 @@ def extrair_erp():
         index=False
     )
 
-    print("Extrção do banco de dados LOJA BRASIL concluída")
-    print("Dados gravados na camada Bronze")
-
-    
+    print("Extração do banco de dados LOJA BRASIL concluída.")
+    print("Dados gravados na camada BRONZE.")

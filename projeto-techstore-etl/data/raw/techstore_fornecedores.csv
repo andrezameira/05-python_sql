@@ -1,0 +1,15 @@
+﻿id_produto;produto;fornecedor;data_atualizacao;custo_aquisicao;prazo_entrega_dias;quantidade_reposicao;status_fornecimento
+1;Notebook Lenovo IdeaPad;TechDistribuidora;2026-09-15;2450.0;7;10;Disponível
+2;Notebook Dell Inspiron;TechDistribuidora     ;2026-09-15;3480.0;8;8;Disponível
+3;MacBook Air M2;IMPORTADORA DIGITAL;2026-09-15;6250.0;15;5;Disponível
+4;iPhone 15;      Mobile SUPPLY;2026-09-16;3820.0;10;12;Disponível
+5;Galaxy S24;Mobile Supply;2026-09-16;3010.0;12;20;Disponível
+6;Motorola Edge 50;Mobile Supply;2026-09-16;1880.0;9;15;Disponível
+7;Mouse Logitech MX;Periféricos Brasil;2026-09-17;245.0;5;35;Disponível
+8;Teclado Mecânico Redragon;Periféricos Brasil;2026-09-17;175.0;6;25;Disponível
+9;Headset HyperX;Periféricos Brasil;2026-09-17;215.0;7;18;Disponível
+10;"Monitor LG 24""";TechDistribuidora;2026-09-18;610.0;9;10;Disponível
+11;"Monitor Samsung 27""";TechDistribuidora;2026-09-18;980.0;11;6;Disponível
+12;Webcam Logitech C920;Periféricos Brasil;2026-09-18;310.0;5;14;Disponível
+13;Hub USB-C;Acessórios Online;2026-09-18;92.0;4;30;Disponível
+14;Suporte para Notebook;      Acessórios ONLINE              ;2026-09-18;65.0;6;22;Disponível

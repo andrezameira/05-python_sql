@@ -37,7 +37,7 @@ def processar_silver():
     df_vendas["ano"] = df_vendas["data_pedido"].dt.year
     df_vendas["mes"] = df_vendas["data_pedido"].dt.month
 
-    # Cálculo
+    # Cálculos
     df_vendas["valor_item"] = (
         df_vendas["quantidade"]
         * df_vendas["preco_unitario"]
@@ -56,7 +56,11 @@ def processar_silver():
     df_vendas["estado"] = df_vendas["estado"].str.upper()
     df_ibge["estado"] = df_ibge["estado"].str.upper()
 
+
+    # ========================================
     # União de DataFrames
+    # ========================================
+    
     df_vendas = df_vendas.merge(
         df_ibge,
         on=["cidade", "estado"],
@@ -95,7 +99,9 @@ def processar_silver():
         index=False
     )
 
-    # Gravação metas_vendas no schema Silver
+    # ========================================
+    # Gravando metas_vendas na camada Silver
+    # ========================================
     df_metas.to_sql(
         "metas_vendas",
         engine_dw,

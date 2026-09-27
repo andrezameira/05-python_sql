@@ -17,5 +17,5 @@ def extrair_excel():
         index=False
     )
 
-    print("Extrção do excel concluída")
-    print("Dados gravados na camada Bronze")
+    print("Extração do arquivo Excel concluída.")
+    print("Dados gravados na camada BRONZE.")
